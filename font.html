@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>font size in html</title>
+
+    <style>
+        body{
+            font-size: 18px;
+        }
+        #font1{
+            border: 2px solid red ;
+            width: 250px;
+            padding:25px;
+            margin-bottom: 100px;
+            font-weight: bolder;
+            font-family: arial;
+            font-style: italic;
+            font-variant: small-caps;
+            
+        }
+        #font2{
+            border: 2px solid red ;
+            width: 250px;
+            padding:25px;
+            font-size: 1em;
+            font-weight: bolder;
+        }
+        #font2 span{
+            font-size: 2em;
+        }
+        h1{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Font size </h1>
+    <div id="font1">
+         <p>
+            PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites. It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server
+        </p>
+    </div>
+    <div id="font2">
+        <p>
+           PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, <span> Faisal kya hall hai thk ho</span>session tracking, even build entire e-commerce sites. It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server
+       </p>
+
+</body>
+</html>

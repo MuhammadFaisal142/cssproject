@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiant colors</title>
+    <style>
+        .grad{
+            width: 400px;
+            height: 200px;
+            border: 3px solid black;
+            background: linear-gradient(red,yellow,green);
+        }
+        .grad1{
+            width: 400px;
+            height: 200px;
+            border: 3px solid black;
+            background: radial-gradient(circle ,red ,yellow,green);
+        }
+        .grad2{
+            width: 400px;
+            height: 200px;
+            border: 3px solid black;
+            background: repeating-radial-gradient( red ,yellow 10%,green 15%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Gradiant colors</h1>
+    <div class="grad">
+        <p>
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+        </p>
+        <br><br><br><br><br><br>
+        <div class="grad1">
+            <p>
+                PHP is a server side scripting language that is embedded in HTML.
+                PHP is a server side scripting language that is embedded in HTML.
+                PHP is a server side scripting language that is embedded in HTML.
+            </p>
+    </div>
+    <br><br><br><br><br><br>
+        <div class="grad2">
+            <p>
+                PHP is a server side scripting language that is embedded in HTML.
+                PHP is a server side scripting language that is embedded in HTML.
+                PHP is a server side scripting language that is embedded in HTML.
+            </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coulumn count</title>
+    <style>
+        .count{
+            border: 2px solid black;
+            width:500px;
+            column-count: 3;
+            column-gap: 50px;
+            column-rule-width:4px;
+            column-rule-style: dashed;
+            column-rule-color: blue ;
+        }
+        .width{
+            border: 2px solid black;
+            width:600px;
+            column-width:100px;
+            column-gap: 50px;
+            column-rule-width:2px;
+            column-rule-style: dashed;
+            column-rule-color: blue ;
+        }
+        h3{
+            column-span: all;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>column count in the div</h1>
+    <div class="count">
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+    </div>
+    <h2>column width  in the div</h2>
+    <div class="width">
+        <h3>column spanning</h3>
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+            PHP is a server side scripting language that is embedded in HTML.
+    </div>
+</body>
+</html>
